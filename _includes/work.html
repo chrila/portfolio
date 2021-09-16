@@ -1,0 +1,12 @@
+<section>
+  <h2>Projects</h2>
+  {% for item in site.data.work %}
+    <div>
+      <h3>{{ item.name }}</h3>
+      <p>{{ item.description }}</p>
+      <p>{{ item.technologies }}</p>
+      <a href="{{ item.link }}">Link</a>
+      <a href="{{ item.github }}">Github</a>
+    </div>
+  {% endfor %}
+</section>

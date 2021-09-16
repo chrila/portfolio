@@ -1,0 +1,30 @@
+- name: trvlr.cl
+  technologies: Rails, HTML, JS
+  description: A platform to plan, document and share trips. Trips can be planned using waypoints and segments and documented via blog and photos.
+  github: https://github.com/chrila/trvlr-cl
+  link: https://www.trvlr.cl/
+
+- name: Zwitscher
+  technologies: Rails, HTML, JS
+  description: Twitter clone written in Ruby on Rails. The project was initially developed during the bootcamp, but when I have time I keep adding functionalities and trying out new things.
+  github: https://github.com/chrila/zwitscher
+  link: https://zwitscher.herokuapp.com/
+
+- name: Pokédex
+  technologies: HTML, JS
+  description: Simple website that demonstrates consumption of an API (https://pokeapi.co/) via javascripts integrated fetch API.
+  github: https://github.com/chrila/pokedex
+  link: https://chrila.github.io/pokedex/
+
+- name: Bookmark Manager
+  technologies: Rails, HTML, JS
+  description: Application to manage different kinds of bookmarks
+  github: https://github.com/chrila/bookmark-manager
+  link: TODO
+
+- name: Winery
+  technologies: Rails, HTML
+  description: Application to manage wine grapes, wine blends, reviewers and reviews
+  github: https://github.com/chrila/winery
+  link: https://chris-winery-g39-v2.herokuapp.com/
+  
