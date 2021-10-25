@@ -6,7 +6,9 @@
       <p>as {{ item.position }}</p>
       <p>from {{ item.from }} to {{ item.to }}</p>
       <p>{{ item.description }}</p>
-      <p>Technologies used: {{ item.technologies }}</p>
+      {% for tech in item.technologies %}
+        <span class="badge">{{ tech }}</span>
+      {% endfor %}
     </div>
   {% endfor %}
 </section>

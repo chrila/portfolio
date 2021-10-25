@@ -2,20 +2,20 @@
   from: 2012
   to: 2015
   position: Software developer
-  technologies: Java
+  technologies: [Java]
   description: Development of a warehouse simulation in Java. Real time event processing, graphics and interfaces to various other systems.
 
 - employer: KNAPP Systemintegration
   from: 2015
   to: 2020
   position: Software engineer
-  technologies: SQL, Oracle PL/SQL, Java, C++, Linux
+  technologies: [SQL, Oracle PL/SQL, Java, C++, Linux]
   description: Implementation of software projects - Development, testing, start-up, end-user training and support with customers all over the world.
 
 - employer: KNAPP Chile
   from: 2020
   to: present
   position: Software engineer
-  technologies: SQL, Oracle PL/SQL, Java, C++, C#, .NET core, Linux, Windows Server
+  technologies: [SQL, Oracle PL/SQL, Java, C++, C#, .NET core, Linux, Windows Server]
   description: Implementation of new projects and support of existing installations with customers in latin america.
 
