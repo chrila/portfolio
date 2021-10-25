@@ -2,14 +2,13 @@
   <h2>Projects</h2>
   {% for item in site.data.work %}
     <div>
-      <h3>{{ item.name }}</h3>
+      <h3><a href="{{ item.url }}" target="_blank">{{ item.name }}</a></h3>
       <p>{{ item.description }}</p>
       <p>
       {% for tech in item.technologies %}
         <span class="badge">{{ tech }}</span>
       {% endfor %}
       </p>
-      <a href="{{ item.link }}">Link</a>
       <a href="{{ item.github }}">Github</a>
     </div>
   {% endfor %}

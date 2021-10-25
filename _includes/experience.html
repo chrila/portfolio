@@ -1,6 +1,6 @@
 <section>
   <h2>Work experience</h2>
-  {% for item in site.data.experience %}
+  {% for item in site.data.experience reversed %}
     <div>
       <h3><a href="{{ item.url }}" target="_blank">{{ item.employer }}</a></h3>
       <p>as {{ item.position }}</p>
