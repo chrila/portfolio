@@ -2,7 +2,7 @@
   <h2>Work experience</h2>
   {% for item in site.data.experience %}
     <div>
-      <h3>{{ item.employer }}</h3>
+      <h3><a href="{{ item.url }}" target="_blank">{{ item.employer }}</a></h3>
       <p>as {{ item.position }}</p>
       <p>from {{ item.from }} to {{ item.to }}</p>
       <p>{{ item.description }}</p>

@@ -1,16 +1,19 @@
 - institution: HTBLA Kaindorf
+  url: https://www.htl-kaindorf.ac.at
   location: Kaindorf/Sulm (Austria)
   from: 2003
   to: 2008
   description: Higher technical college with focus on software development
 
 - institution: Montanuniversität Leoben
+  url: https://www.unileoben.ac.at
   location: Leoben (Austria)
   from: 2009
   to: 2012
   description: Studies in industrial logistics (not completed)
 
 - institution: Desafío Latam
+  url: https://desafiolatam.com
   location: Santiago de Chile
   from: 2020
   to: 2021
