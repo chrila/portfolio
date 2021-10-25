@@ -3,9 +3,9 @@
   {% for item in site.data.education %}
     <div>
       <h3>{{ item.institution }}</h3>
-      <p>Location: {{ item.location }}</p>
-      <p>{{ item.description }}</p>
-      <p>From {{ item.from }} to {{ item.to }}<p>
+      <p>Where: {{ item.location }}</p>
+      <p>What: {{ item.description }}</p>
+      <p>When: from {{ item.from }} to {{ item.to }}<p>
     </div>
   {% endfor %}
 </section>

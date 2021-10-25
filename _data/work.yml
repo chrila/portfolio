@@ -1,30 +1,30 @@
 - name: trvlr.cl
-  technologies: Rails, HTML, JS
-  description: A platform to plan, document and share trips. Trips can be planned using waypoints and segments and documented via blog and photos.
+  technologies: [Rails, HTML, CSS, JS, Stimulus.js]
+  description: A platform to plan, document and share trips. Trips can be planned using waypoints and segments and documented via blog and photos. This was my final project for the Rails bootcamp, and I keep improving it whenever I have time. The list of potential improvements is long ;)
   github: https://github.com/chrila/trvlr-cl
   link: https://www.trvlr.cl/
 
 - name: Zwitscher
-  technologies: Rails, HTML, JS
+  technologies: [Rails, HTML, CSS, JS]
   description: Twitter clone written in Ruby on Rails. The project was initially developed during the bootcamp, but when I have time I keep adding functionalities and trying out new things.
   github: https://github.com/chrila/zwitscher
   link: https://zwitscher.herokuapp.com/
 
 - name: Pokédex
-  technologies: HTML, JS
-  description: Simple website that demonstrates consumption of an API (https://pokeapi.co/) via javascripts integrated fetch API.
+  technologies: [HTML, CSS, JS]
+  description: Simple website that demonstrates consumption of an API (https://pokeapi.co/) in vanilla javascript, using the integrated fetch API.
   github: https://github.com/chrila/pokedex
   link: https://chrila.github.io/pokedex/
 
 - name: Bookmark Manager
-  technologies: Rails, HTML, JS
-  description: Application to manage different kinds of bookmarks
+  technologies: [Rails, HTML, CSS, JS, jQuery]
+  description: Application to manage different kinds of bookmarks. The objective was to perform CRUD operations within a single page, using Rails' UJS.
   github: https://github.com/chrila/bookmark-manager
-  link: TODO
+  link: https://chris-bookmark-manager.herokuapp.com
 
 - name: Winery
-  technologies: Rails, HTML
-  description: Application to manage wine grapes, wine blends, reviewers and reviews
+  technologies: [Rails, HTML, CSS, Stimulus.js]
+  description: Application to manage wine grapes, wine blends, reviewers and reviews. 
   github: https://github.com/chrila/winery
   link: https://chris-winery-g39-v2.herokuapp.com/
   

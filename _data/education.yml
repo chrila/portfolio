@@ -2,17 +2,17 @@
   location: Kaindorf/Sulm (Austria)
   from: 2003
   to: 2008
-  description: higher technical college with focus on software development
+  description: Higher technical college with focus on software development
 
 - institution: Montanuniversität Leoben
   location: Leoben (Austria)
   from: 2009
   to: 2012
-  description: studies industrial logistics (not completed)
+  description: Studies in industrial logistics (not completed)
 
 - institution: Desafío Latam
   location: Santiago de Chile
   from: 2020
   to: 2021
-  description: Bootcamp in fullstack web development using Ruby on Rails
+  description: Bootcamp for fullstack web development in Ruby on Rails
 
