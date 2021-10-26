@@ -4,8 +4,11 @@
 - label: Projects
   link: projects
 
-- label: Work experience
+- label: Work
   link: work_experience
 
 - label: Education
   link: education
+
+- label: Contact
+  link: contact
