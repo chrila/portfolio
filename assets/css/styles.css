@@ -1,7 +1,6 @@
 body {
   font-family: 'Raleway', sans-serif;
   line-height: 1.75;
-  margin-bottom: 3rem;
 }
 
 a {
@@ -10,7 +9,7 @@ a {
 }
 
 h2 {
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 p {
@@ -80,3 +79,17 @@ p {
 .work-experience-body {
 }
 
+header {
+  background: black;
+  color: white;
+  padding: 1rem; 
+  margin-bottom: 2rem;
+}
+
+footer {
+  margin-top: 4rem;
+  text-align: center;
+  background: black;
+  color: white;
+  padding: 4rem 0; 
+}
