@@ -1,4 +1,32 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.75;
+  margin-bottom: 3rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 70vh;
+  margin: 0 auto;
+}
+
 .badge {
   color: white;
   background-color: black;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 1rem;
+  line-height: 2.5;
+  font-size: 0.9rem;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  transition: 0.5s ease;
 }
+
+.badge:hover {
+  background-color: #860000;
+}
+
