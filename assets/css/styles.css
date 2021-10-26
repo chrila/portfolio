@@ -63,6 +63,15 @@ p {
   margin-bottom: 0;
 }
 
+.chapter-header h3 a {
+  transition: 0.5s ease;
+}
+
+.chapter-header h3 a:hover {
+  background-color: black;
+  color: white;
+}
+
 .technologies-container {
   display: flex;
   flex-wrap: wrap;
@@ -86,10 +95,22 @@ p {
 nav {
   background: black;
   color: white;
-  padding: 1rem;
+  padding: 0;
   margin: 0;
   display: flex;
-  justify-content: space-between;
+  align-items: stretch;
+}
+
+nav a {
+  text-align: center;
+  transition: 0.5s ease;
+  padding: 0.5rem;
+  flex: 1;
+}
+
+nav a:hover {
+  color: black;
+  background-color: white;
 }
 
 header {
