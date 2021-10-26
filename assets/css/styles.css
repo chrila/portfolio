@@ -9,6 +9,14 @@ a {
   color: inherit;
 }
 
+h2 {
+  margin-top: 4rem;
+}
+
+p {
+  margin: 0 0;
+}
+
 .container {
   max-width: 70vh;
   margin: 0 auto;
@@ -35,20 +43,40 @@ a {
   background-color: black;
 }
 
-.project-header {
+.project-container {
+  margin-top: 3rem;
+}
+
+.chapter-header {
   display: flex;
   align-items: center;
   gap: 1rem;
   margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
-.project-header h3 {
+.chapter-header h3 {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.project-technologies {
+.technologies-container {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 0.5rem;
+  margin: 1rem 0;
 }
+
+.work-experience-container {
+  margin-top: 3rem;
+}
+
+.work-experience-container h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.work-experience-body {
+}
+

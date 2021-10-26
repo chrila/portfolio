@@ -1,14 +1,20 @@
 <section>
   <h2>Work experience</h2>
   {% for item in site.data.work_experience reversed %}
-    <div>
-      <h3><a href="{{ item.url }}" target="_blank">{{ item.employer }}</a></h3>
-      <p>as {{ item.position }}</p>
-      <p>from {{ item.from }} to {{ item.to }}</p>
-      <p>{{ item.description }}</p>
-      {% for tech in item.technologies %}
-        <span class="badge">{{ tech }}</span>
-      {% endfor %}
+    <div class="work-experience-container">
+      <div class="chapter-header">
+        <h3><a href="{{ item.url }}" target="_blank">{{ item.employer }}</a></h3>
+      </div>
+      <div class="work-experience-body">
+        <p>as {{ item.position }}</p>
+        <p>from {{ item.from }} to {{ item.to }}</p>
+        <p>{{ item.description }}</p>
+        <div class=technologies-container>
+        {% for tech in item.technologies %}
+          <span class="badge">{{ tech }}</span>
+        {% endfor %}
+        </div>
+      </div>
     </div>
   {% endfor %}
 </section>

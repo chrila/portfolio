@@ -2,7 +2,9 @@
   <h2>Education</h2>
   {% for item in site.data.education reversed %}
     <div>
-      <h3><a href="{{ item.url }}" target="_blank">{{ item.institution }}</a></h3>
+      <div class="chapter-header">
+        <h3><a href="{{ item.url }}" target="_blank">{{ item.institution }}</a></h3>
+      </div>
       <p>Where: {{ item.location }}</p>
       <p>What: {{ item.description }}</p>
       <p>When: from {{ item.from }} to {{ item.to }}<p>
