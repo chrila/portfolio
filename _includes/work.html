@@ -3,13 +3,13 @@
   {% for item in site.data.work %}
     <div>
       <h3><a href="{{ item.url }}" target="_blank">{{ item.name }}</a></h3>
+      <a class="github" href="{{ item.github }}">Github</a>
       <p>{{ item.description }}</p>
       <p>
       {% for tech in item.technologies %}
         <span class="badge">{{ tech }}</span>
       {% endfor %}
       </p>
-      <a href="{{ item.github }}">Github</a>
     </div>
   {% endfor %}
 </section>
