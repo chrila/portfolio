@@ -8,6 +8,10 @@ a {
   color: inherit;
 }
 
+h1 {
+  font-size: 3rem;
+}
+
 h2 {
   margin-top: 3rem;
 }
@@ -77,6 +81,15 @@ p {
 }
 
 .work-experience-body {
+}
+
+nav {
+  background: black;
+  color: white;
+  padding: 1rem;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 header {

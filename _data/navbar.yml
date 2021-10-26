@@ -1,5 +1,11 @@
-- label: Home
-  link: /
 - label: About me
-  link: /about.html
+  link: about
 
+- label: Projects
+  link: projects
+
+- label: Work experience
+  link: work_experience
+
+- label: Education
+  link: education
