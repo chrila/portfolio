@@ -17,7 +17,7 @@ a {
 .badge {
   color: white;
   background-color: black;
-  padding: 0.5rem 1rem 0.5rem 1rem;
+  padding: 0 1rem 0 1rem;
   border-radius: 1rem;
   line-height: 2.5;
   font-size: 0.9rem;
@@ -33,4 +33,22 @@ a {
 .github {
   color: white;
   background-color: black;
+}
+
+.project-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.project-header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.project-technologies {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }

@@ -1,15 +1,19 @@
 <section>
   <h2>Projects</h2>
   {% for item in site.data.projects %}
-    <div>
-      <h3><a href="{{ item.url }}" target="_blank">{{ item.name }}</a></h3>
-      <a class="github" href="{{ item.github }}">Github</a>
-      <p>{{ item.description }}</p>
-      <p>
-      {% for tech in item.technologies %}
-        <span class="badge">{{ tech }}</span>
-      {% endfor %}
-      </p>
+    <div class="project-container">
+      <div class="project-header">
+        <h3><a href="{{ item.url }}" target="_blank">{{ item.name }}</a></h3>
+        <a class="github" href="{{ item.github }}">Github</a>
+      </div>
+      <div class="project-body">
+        <p>{{ item.description }}</p>
+        <div class=project-technologies>
+        {% for tech in item.technologies %}
+          <span class="badge">{{ tech }}</span>
+        {% endfor %}
+        </div>
+      </div>
     </div>
   {% endfor %}
 </section>
