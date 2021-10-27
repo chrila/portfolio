@@ -15,6 +15,12 @@ h1 {
 h2 {
   margin-top: 3rem;
   font-weight: bold;
+  position: relative;
+}
+
+h2 a {
+  position: absolute;
+  top: -4rem;
 }
 
 p {
@@ -22,7 +28,7 @@ p {
 }
 
 .container {
-  max-width: 70vh;
+  max-width: 95vh;
   margin: 0 auto;
 }
 
@@ -99,6 +105,8 @@ nav {
   margin: 0;
   display: flex;
   align-items: stretch;
+  position: sticky;
+  top: 0;
 }
 
 nav a {
