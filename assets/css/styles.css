@@ -13,16 +13,13 @@ h1 {
 }
 
 h2 {
-  margin-top: 4rem;
+  margin: 4rem 0 0 0;
   font-weight: bold;
-  position: relative;
+  position: sticky;
+  top: 3rem;
+  background-color: white;
   border-bottom: 3px solid;
   padding-bottom: 0.5rem;
-}
-
-h2 a {
-  position: absolute;
-  top: -4rem;
 }
 
 p {
@@ -106,6 +103,7 @@ nav {
   position: sticky;
   top: 0;
   z-index: 1;
+  height: 3rem;
 }
 
 nav a {
