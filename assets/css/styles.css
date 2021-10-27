@@ -13,9 +13,11 @@ h1 {
 }
 
 h2 {
-  margin-top: 3rem;
+  margin-top: 4rem;
   font-weight: bold;
   position: relative;
+  border-bottom: 3px solid;
+  padding-bottom: 0.5rem;
 }
 
 h2 a {
@@ -52,15 +54,20 @@ p {
   font-size: 1.5rem;
 }
 
-.project-container {
-  margin-top: 3rem;
+.chapter-container {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.chapter-container h3 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .chapter-header {
   display: flex;
   align-items: center;
   gap: 1rem;
-  margin-top: 2rem;
   margin-bottom: 1rem;
 }
 
@@ -86,15 +93,6 @@ p {
   margin: 1rem 0;
 }
 
-.work-experience-container {
-  margin-top: 3rem;
-}
-
-.work-experience-container h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
 .work-experience-body {
 }
 
@@ -107,6 +105,7 @@ nav {
   align-items: stretch;
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 
 nav a {
@@ -141,6 +140,7 @@ footer {
   display: flex;
   gap: 1rem;
   justify-content: center;
+  margin-top: 2rem;
 }
 
 input {
