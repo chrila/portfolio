@@ -2,6 +2,7 @@ body {
   font-family: 'Raleway', sans-serif;
   line-height: 1.75;
   background-color: linen;
+  margin: 0;
 }
 
 a {

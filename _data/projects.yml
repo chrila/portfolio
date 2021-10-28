@@ -35,6 +35,7 @@
 - name: Portfolio
   technologies: [HTML, CSS, Jekyll]
   description: The portfolio site that you are looking at. Nothing fancy, but my first shot at static site generators. I like the possibility
-    to separate presentation and data, so it should be easy to extend the information in the future.
+    to separate presentation and data, so it should be easy to extend the information in the future. I used a minimalist approach without
+    any frameworks.
   github: https://github.com/chrila/portfolio
   url: https://chrila.github.io/portfolio/
