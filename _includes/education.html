@@ -6,9 +6,13 @@
       <div class="chapter-header">
         <h3><a href="{{ item.url }}" target="_blank">{{ item.institution }}</a></h3>
       </div>
-      <p>Where: {{ item.location }}</p>
-      <p>What: {{ item.description }}</p>
-      <p>When: from {{ item.from }} to {{ item.to }}<p>
+      <div class="chapter-body">
+        <p>
+          Where: {{ item.location }}<br />
+          What: {{ item.description }}<br />
+          When: from {{ item.from }} to {{ item.to }}
+        </p>
+      </div>
     </div>
   {% endfor %}
 </section>

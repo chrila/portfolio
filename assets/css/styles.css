@@ -24,7 +24,6 @@ h2 {
 }
 
 p {
-  margin: 0 0;
 }
 
 .container {
@@ -85,15 +84,15 @@ p {
   color: white;
 }
 
+.chapter-body {
+}
+
 .technologies-container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 0.5rem;
   margin: 1rem 0;
-}
-
-.work-experience-body {
 }
 
 nav {

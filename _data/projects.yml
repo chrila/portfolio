@@ -1,12 +1,15 @@
 - name: trvlr.cl
-  technologies: [Rails, HTML, CSS, JS, Stimulus.js]
-  description: A platform to plan, document and share trips. Trips can be planned using waypoints and segments and documented via blog and photos. This was my final project for the Rails bootcamp, and I keep improving it whenever I have time. The list of potential improvements is long ;)
+  technologies: [Rails, HTML, CSS, JS, Stimulus.js, Turbo]
+  description: A platform to plan, document and share trips. Trips can be planned using waypoints and segments and documented via blog and photos.
+    This was my final project for the Rails bootcamp, and I keep improving it whenever I have time. On this project, I started experimenting with
+    Rails' Hotwire stack (Turbo + Stimulus.js) and am just scratching the surface. To be continued!
   github: https://github.com/chrila/trvlr-cl
   url: https://www.trvlr.cl/
 
 - name: Zwitscher
   technologies: [Rails, HTML, CSS, JS]
-  description: Twitter clone written in Ruby on Rails. The project was initially developed during the bootcamp, but when I have time I keep adding functionalities and trying out new things.
+  description: Twitter clone written in Ruby on Rails. The project was initially developed during the bootcamp, but when I have time I keep adding
+    functionalities and trying out new things.
   github: https://github.com/chrila/zwitscher
   url: https://zwitscher.herokuapp.com/
 
@@ -24,7 +27,14 @@
 
 - name: Winery
   technologies: [Rails, HTML, CSS, Stimulus.js]
-  description: Application to manage wine grapes, wine blends, reviewers and reviews. 
+  description: Application to manage wine grapes, wine blends, reviewers and reviews. Basically a CRUD app, but with some nice details
+     (dynamic adding and removal of detail records within the form).
   github: https://github.com/chrila/winery
   url: https://chris-winery-g39-v2.herokuapp.com/
   
+- name: Portfolio
+  technologies: [HTML, CSS, Jekyll]
+  description: The portfolio site that you are looking at. Nothing fancy, but my first shot at static site generators. I like the possibility
+    to separate presentation and data, so it should be easy to extend the information in the future.
+  github: https://github.com/chrila/portfolio
+  url: https://chrila.github.io/portfolio/
