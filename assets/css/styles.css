@@ -1,6 +1,7 @@
 body {
   font-family: 'Raleway', sans-serif;
   line-height: 1.75;
+  background-color: linen;
 }
 
 a {
@@ -17,9 +18,9 @@ h2 {
   font-weight: bold;
   position: sticky;
   top: 3rem;
-  background-color: white;
+  background-color: linen;
   border-bottom: 3px solid;
-  padding-bottom: 0.5rem;
+  padding: 0 0 0.5rem 0.5rem;
 }
 
 p {
@@ -40,7 +41,7 @@ p {
   font-size: 0.9rem;
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
-  transition: 0.5s ease;
+  transition: 0.25s ease;
 }
 
 .badge:hover {
@@ -49,6 +50,7 @@ p {
 
 .github {
   font-size: 1.5rem;
+  align-items: center;
 }
 
 .chapter-container {
@@ -63,21 +65,22 @@ p {
 
 .chapter-header {
   display: flex;
-  align-items: center;
-  gap: 1rem;
+  align-items: stretch;
   margin-bottom: 1rem;
 }
 
-.chapter-header h3 {
+.chapter-header * {
   margin-top: 0;
   margin-bottom: 0;
+  display: flex;
 }
 
-.chapter-header h3 a {
-  transition: 0.5s ease;
+.chapter-header * a {
+  transition: 0.25s ease;
+  padding: 0.5rem;
 }
 
-.chapter-header h3 a:hover {
+.chapter-header * a:hover {
   background-color: black;
   color: white;
 }
@@ -94,7 +97,7 @@ p {
 }
 
 nav {
-  background: black;
+  background-color: black;
   color: white;
   padding: 0;
   margin: 0;
@@ -108,18 +111,18 @@ nav {
 
 nav a {
   text-align: center;
-  transition: 0.5s ease;
+  transition: 0.25s ease;
   padding: 0.5rem;
   flex: 1;
 }
 
 nav a:hover {
   color: black;
-  background-color: white;
+  background-color: linen;
 }
 
 header {
-  background: black;
+  background-color: black;
   color: white;
   padding: 1rem; 
   margin-bottom: 2rem;
@@ -128,7 +131,7 @@ header {
 footer {
   margin-top: 4rem;
   text-align: center;
-  background: black;
+  background-color: black;
   color: white;
   padding: 4rem 0; 
 }
