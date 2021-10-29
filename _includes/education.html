@@ -1,18 +1,20 @@
 <section>
   <a id="education"></a>
   <h2>Education</h2>
-  {% for item in site.data.education reversed %}
-    <div class="chapter-container">
-      <div class="chapter-header">
-        <h3><a href="{{ item.url }}" target="_blank">{{ item.institution }}</a></h3>
+  <div class="section-container">
+    {% for item in site.data.education reversed %}
+      <div class="chapter-container">
+        <div class="chapter-header">
+          <h3><a href="{{ item.url }}" target="_blank">{{ item.institution }}</a></h3>
+        </div>
+        <div class="chapter-body">
+          <p>
+            Where: {{ item.location }}<br />
+            What: {{ item.description }}<br />
+            When: from {{ item.from }} to {{ item.to }}
+          </p>
+        </div>
       </div>
-      <div class="chapter-body">
-        <p>
-          Where: {{ item.location }}<br />
-          What: {{ item.description }}<br />
-          When: from {{ item.from }} to {{ item.to }}
-        </p>
-      </div>
-    </div>
-  {% endfor %}
+    {% endfor %}
+  </div>
 </section>
