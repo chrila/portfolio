@@ -1,25 +1,13 @@
 body {
-  font-family: 'Raleway', sans-serif;
-  line-height: 1.75;
-  background-color: linen;
+  background-color: $color-background;
   margin: 0;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-h1 {
-  font-size: 3rem;
 }
 
 h2 {
   margin: 4rem 0 0 0;
-  font-weight: bold;
   position: sticky;
   top: 3rem;
-  background-color: linen;
+  background-color: $color-background;
   border-bottom: 3px solid;
   padding: 0 0 0.5rem 0.5rem;
 }
@@ -34,23 +22,18 @@ section {
 }
 
 .badge {
-  color: white;
-  background-color: black;
+  background-color: $color-primary;
   padding: 0 1rem 0 1rem;
   border-radius: 1rem;
-  line-height: 2.5;
-  font-size: 0.9rem;
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
-  transition: 0.25s ease;
 }
 
 .badge:hover {
-  background-color: #860000;
+  background-color: $color-accent;
 }
 
 .github {
-  font-size: 1.5rem;
   align-items: center;
 }
 
@@ -90,13 +73,7 @@ section {
 }
 
 .chapter-header * a {
-  transition: 0.25s ease;
   padding: 0.5rem;
-}
-
-.chapter-header * a:hover {
-  background-color: black;
-  color: white;
 }
 
 .chapter-body {
@@ -111,8 +88,7 @@ section {
 }
 
 nav {
-  background-color: black;
-  color: white;
+  background-color: $color-primary;
   padding: 0;
   margin: 0;
   display: flex;
@@ -121,23 +97,20 @@ nav {
   top: 0;
   z-index: 1;
   height: 3rem;
-}
 
-nav a {
-  text-align: center;
-  transition: 0.25s ease;
-  padding: 0.5rem;
-  flex: 1;
-}
+  a {
+    text-align: center;
+    padding: 0.5rem;
+    flex: 1;
+  }
 
-nav a:hover {
-  color: black;
-  background-color: linen;
+  a:hover {
+    background-color: $color-background;
+  }
 }
 
 header {
-  background-color: black;
-  color: white;
+  background-color: $color-primary;
   padding: 1rem; 
   margin-bottom: 2rem;
 }
@@ -145,27 +118,21 @@ header {
 footer {
   margin-top: 4rem;
   text-align: center;
-  background-color: black;
-  color: white;
+  background-color: $color-primary;
   padding: 4rem 0; 
 }
 
 .footer-links {
-  font-size: 1.5rem;
   display: flex;
   gap: 1rem;
   justify-content: center;
   margin-top: 2rem;
 }
 
-input {
-  font: inherit;
-}
-
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px; 
-  border: 1px solid #ccc;
+  border: 1px solid $color-primary;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -174,8 +141,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: black;
-  color: white;
+  background-color: $color-primary;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -183,11 +149,9 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #860000;
+  background-color: $color-accent;
 }
 
 textarea {
   height: 10rem;
-  font: inherit;
 }
-

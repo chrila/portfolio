@@ -1,0 +1,64 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.75;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav {
+  color: $color-secondary;
+
+  a:hover {
+    color: $color-primary;
+  }
+}
+
+header {
+  color: $color-secondary;
+}
+
+footer {
+  color: $color-secondary;
+}
+
+.chapter-header * a:hover {
+  background-color: $color-primary;
+  color: $color-secondary;
+}
+
+.badge {
+  line-height: 2.5;
+  font-size: 0.9rem;
+  color: $color-secondary;
+}
+
+.github {
+  font-size: 1.5rem;
+}
+
+.footer-links {
+  font-size: 1.5rem;
+}
+
+input {
+  font: inherit;
+}
+
+textarea {
+  font: inherit;
+}
+
+input[type=submit] {
+  color: $color-secondary;
+}
