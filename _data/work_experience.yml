@@ -1,24 +1,34 @@
 - employer: ARIDA Technology
   url: http://www.arida-technology.com
+  description: Consulting and software development for clients in the logistic sector.
   from: 2012
   to: 2015
   position: Software developer
-  technologies: [Java]
-  description: Development of a warehouse simulation in Java. Real time event processing, graphics and interfaces to various other systems.
+  technologies: [Java, Swing, JavaFx]
+  activities: I was part of a small project team which developed a warehouse simulation in Java, from scratch. We implemented real time event processing,
+    graphics and interfaces to various third-party systems. A challenge was to understand how the components of the warehouse work in real life and to model
+    their behavior accordingly. There was a large variety of components and it was constantly being extended, according to the clients needs.
 
 - employer: KNAPP Systemintegration
   url: https://www.knapp.com
+  description: Leading provider of warehouse automation solutions. They provide machinery as well as software.
   from: 2015
   to: 2020
   position: Software engineer
   technologies: [SQL, Oracle PL/SQL, Java, C++, Linux]
-  description: Implementation of software projects - Development, testing, start-up, end-user training and support with customers all over the world.
+  activities: I was working with the central software product called WCS (warehouse control system). It communicates with a set of internal and third-party
+    subsystems (e.g. PLC, printers, sorters), to assure that the flow of transported goods is according to the information provided by the higher-level system.
+    My tasks were related to implementation of software projects and included the whole spectrum of development, testing, start-up, end-user training and
+    support with customers all over the world. The system runs on Linux and is very database heavy. Interfaces are implemented in C++ and Java.
 
 - employer: KNAPP Chile
   url: https://www.knapp.com
+  description: Chilean subsidiary of KNAPP.
   from: 2020
   to: present
   position: Software engineer
   technologies: [SQL, Oracle PL/SQL, Java, C++, C#, Linux, Windows Server]
-  description: Implementation of new projects and support of existing installations with customers in latin america.
+  activities: I transferred to the subsidiary in Chile to continue with implementation of new projects and support of existing installations with
+    customers in latin america. There, I took over additional tasks, mainly customer service and development for a different product which is based on
+    Microsoft Windows and .NET.
 

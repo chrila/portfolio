@@ -9,9 +9,10 @@
         </div>
         <div class="chapter-body">
           <p>
-            as {{ item.position }}<br />
-            from {{ item.from }} to {{ item.to }}<br />
-            {{ item.description }}
+            <span class="chapter-body-title">Position:</span> {{ item.position }}<br />
+            <span class="chapter-body-title">Description:</span> {{ item.description }}<br />
+            <span class="chapter-body-title">Time:</span> {{ item.from }} to {{ item.to }}<br />
+            <span class="chapter-body-title">Activities:</span> {{ item.activities }}
           </p>
           <div class=technologies-container>
           {% for tech in item.technologies %}

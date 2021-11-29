@@ -9,10 +9,15 @@
         </div>
         <div class="chapter-body">
           <p>
-            Where: {{ item.location }}<br />
-            What: {{ item.description }}<br />
-            When: from {{ item.from }} to {{ item.to }}
+            <span class="chapter-body-title">Where:</span> {{ item.location }}<br />
+            <span class="chapter-body-title">What:</span> {{ item.description }}<br />
+            <span class="chapter-body-title">When:</span> from {{ item.from }} to {{ item.to }}
           </p>
+          <div class=technologies-container>
+          {% for skill in item.skills %}
+            <span class="badge">{{ skill }}</span>
+          {% endfor %}
+          </div>
         </div>
       </div>
     {% endfor %}
