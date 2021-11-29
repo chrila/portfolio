@@ -4,11 +4,11 @@ body {
 }
 
 h1 {
-  margin-left: 10%;
+  text-align: center;
 }
 
 h2 {
-  margin: 4rem 0 0 0;
+  margin: 4rem -1rem 0 -1rem;
   position: sticky;
   top: 3rem;
   background-color: $color-background;
@@ -44,8 +44,7 @@ section {
 
 .section-container {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 1rem;
+  grid-gap: 2rem;
 }
 
 /* on large screens, display grid in two columns */
@@ -80,6 +79,10 @@ section {
 .chapter-header * a {
   padding: 0.5rem;
   border-bottom: 1px solid;
+}
+
+.chapter-header * a:hover {
+  background-color: $color-primary;
 }
 
 .chapter-body {
