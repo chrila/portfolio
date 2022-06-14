@@ -26,9 +26,10 @@
   description: Chilean subsidiary of KNAPP.
   from: 2020
   to: present
-  position: Software engineer
-  technologies: [SQL, Oracle PL/SQL, Java, C++, C#, Linux, Windows Server]
+  position: Software engineer, developer
+  technologies: [SQL, Oracle PL/SQL, C#, .NET, ASP.NET, Linux, Windows Server, Xamarin, REST, HTML, CSS, JavaScript]
   activities: I transferred to the subsidiary in Chile to continue with implementation of new projects and support of existing installations with
-    customers in latin america. There, I took over additional tasks, mainly customer service and development for a different product which is based on
-    Microsoft Windows and .NET.
+    customers in latin america.
+    There, I transferred to the product development in the brazilian software division. The main product consists of several services, mobile
+    applications and a web application that are developed within the .NET ecosystem and run on Microsoft Windows and Android.
 
